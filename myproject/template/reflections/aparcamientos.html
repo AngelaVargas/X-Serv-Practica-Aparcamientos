@@ -1,0 +1,22 @@
+{% extends "index.html" %}
+
+{% block user %}
+	<div class="userform">
+		{{login|safe}}
+	</div>
+{% endblock %}
+
+{% block inicio %}
+	<span><a href="http://localhost:1234/">Inicio</span></a>
+{% endblock %}
+
+
+{% block izq %}
+	{{lista|safe}}
+{% endblock %}
+
+{% block listado %}
+	<div class="district">
+		{{distrito|safe}}
+	</div>
+{% endblock %}

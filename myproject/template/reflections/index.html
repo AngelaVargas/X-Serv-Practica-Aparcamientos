@@ -1,0 +1,63 @@
+<!DOCTYPE>
+
+<head>
+    	<title>Red de Aparcamientos, ayuntamiento de Madrid</title>
+		<link rel="stylesheet" href="/main.css" type="text/css" />
+		<link rel="stylesheet" href="/static/style.css" type="text/css"/>
+		<link rel="shortcut icon" href="/static/images/favicon.ico" type="image/icon" />
+</head>
+
+<body>
+<div id="container">
+    <div id="banner">
+        <img src="/static/images/madrid.jpg"/>
+	 </div>
+
+    <div class="userbox">
+		{% block user %}
+        <div class="userform">
+				     {{login|safe}}
+        </div>
+		{% endblock %}
+    </div>
+
+    <div class="subuser">
+        <div class="articleboxinner">
+				<div class="mainpiccontrol" />
+					<div id="tabholder">
+						<div id="tabs">
+							{% block inicio %}
+								<span><a href="http://localhost:1234/aparcamientos/">Todos</span></a>
+							{% endblock %}
+							{% block ayuda %}
+						      <span><a href="http://localhost:1234/about/">Ayuda</span></a>
+							{% endblock %}
+
+						</div>
+						<br>
+
+						{% block izq %}
+							{{accesible|safe}}
+						</br>
+							{{list_users|safe}}
+
+						{% endblock %}
+					</div>
+				</div>
+            <br />
+
+				<div class= "list" />
+					{% block listado %}
+		        		{{list|safe}}
+					{% endblock %}
+				</div>
+        </div>
+    </div>
+
+    <div id="footer">
+        {{footer|safe}}
+    </div>
+
+</div>
+</body>
+</html>

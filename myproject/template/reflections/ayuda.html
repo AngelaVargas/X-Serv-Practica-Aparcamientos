@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block user %}
+{% endblock %}
+
+{% block ayuda %}
+	<span><a href="http://localhost:1234/aparcamientos/">Todos</span></a>
+{% endblock %}
+
+{% block inicio %}
+	<span><a href="http://localhost:1234/">Inicio</span></a>
+{% endblock %}
+
+{% block izq %}
+	{{lista|safe}}
+{% endblock %}

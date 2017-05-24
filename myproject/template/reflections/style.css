@@ -1,0 +1,194 @@
+
+
+/* Main Styles that apply to body */
+body {
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	margin: 0px;
+	padding-left: 50%;
+	background: #f4f4f4 url(/static/images/bg.gif) center repeat-y;
+	position: absolute;
+}
+
+#banner{
+    margin-left: 32px;
+	 height: 166px;
+	 width: auto;
+}
+
+#container {
+	width: 700px;
+	margin-left: -350px;
+	background: #fff0fa;
+}
+
+/* class that styles the holder div of the forms */
+.userform {
+    width: 201px;
+	 height: auto;
+    color: #b75f92;
+    padding: 5px 0px 5px 3px;
+    background: #fbfbfb;
+    border:1px solid #efefef;
+    border-top: none;
+    text-align: justify;
+    margin-bottom: 1px;
+    margin-left: 450px;
+	 opacity: 0.9;
+}
+
+
+
+/* This will style the login and search */
+.userform input {
+    border: 1px solid #DDD;
+    font-family: verdana;
+    font-size: 10px;
+    color: #563939;
+    font-weight: bold;
+}
+
+.district {
+	float: right;
+   font-weight: bold;
+   margin-bottom: 1px;
+
+}
+
+/* This holds the tabs */
+#tabholder
+{
+    width: auto;
+}
+
+/* Container for the article box, and the pic box */
+.userbox {
+    width: auto;
+    height: 105px;
+    padding: 0px 6px 0px 5px;
+    clear: both;
+    opacity: 0.9;
+}
+
+.subuser {
+	width: auto;
+   padding: 0px 6px 0px 5px;
+	background: #fff0fa;
+}
+
+/* Content holder for the articles */
+.articleboxinner {
+    width: auto;
+    line-height: 20px;
+    background: #fff0fa;
+    text-align: justify;
+    height: 300px;
+}
+
+/* The title style for the main article */
+.articleheader
+{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+}
+
+/* This will style the read more thing at the bottom */
+
+/* This controls the main pic in the main article box */
+.mainpiccontrol
+{
+    float: left;
+    line-height: 20px;
+    height: auto;
+    text-align: justify;
+	 padding: 0px 10px 10px 25px;
+    border:1px solid #ffdbf3;
+}
+
+.list
+{
+	text-align: justify;
+	float: right;
+	width:auto;
+	margin-right: 20px;
+}
+
+.title
+{
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.public
+{
+	font-size: 20px;
+	color: #7a6dd6;
+	text-align: center;
+}
+
+.parkings
+{
+	text-align: center;
+}
+
+.logout
+{
+	float: right;
+}
+
+
+/* Sometimes, I don't want borders around my hyperlink images */
+.noborder {
+    border: none;
+}
+
+/* For taming those leeeeeeetle arrows */
+img {
+    vertical-align: text-bottom;
+}
+
+/* Style-up those ugly default hyperlinks */
+a {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #663366;
+}
+
+/* And their ugly hover states too */
+a:hover {
+	text-decoration: underline;
+}
+
+/* Why should the humble footer be left out? */
+#footer {
+	background-color: #CCC;
+	width: 700px;
+	color: #000;
+	text-align: center;
+	vertical-align: middle;
+	height: 150px;
+	padding-top: 10px;
+	clear: both;
+}
+
+
+/* CSS Tabs */
+#tabs {
+    width:167px;
+    font-size:15px;
+    line-height:normal;
+	 text-align: center;
+	 color: #CCC;
+	 padding: 5px;
+	 background-image: url(/static/images/tabright8.gif);
+}
+
+#tabs a {
+
+	padding: 3px 5px;
+}
+
+
+

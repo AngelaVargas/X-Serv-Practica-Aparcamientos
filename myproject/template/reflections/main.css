@@ -1,0 +1,12 @@
+
+
+body {
+	font-size: {{letra| safe}};
+	
+}
+
+
+.articleboxinner
+{
+	color: {{color| safe}};
+}
